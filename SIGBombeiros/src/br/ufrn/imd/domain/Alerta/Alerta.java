@@ -2,6 +2,8 @@ package br.ufrn.imd.domain.Alerta;
 
 import java.util.ArrayList;
 
+import br.ufrn.imd.domain.Pessoa.Pessoa;
+
 public class Alerta {
     
     private ArrayList<Caso> casosEmAndamento = new ArrayList<>();

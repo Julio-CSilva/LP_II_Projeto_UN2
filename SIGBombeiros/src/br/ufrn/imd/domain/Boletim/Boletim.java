@@ -3,6 +3,8 @@ package br.ufrn.imd.domain.Boletim;
 import java.util.ArrayList;
 import br.ufrn.imd.domain.Alerta.Caso;
 
+import br.ufrn.imd.domain.Pessoa.Pessoa;
+
 public class Boletim {
     
     private Caso ultimoCaso;

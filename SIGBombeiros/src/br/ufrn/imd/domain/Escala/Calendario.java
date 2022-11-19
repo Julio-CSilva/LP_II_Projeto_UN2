@@ -2,6 +2,8 @@ package br.ufrn.imd.domain.Escala;
 
 import java.util.ArrayList;
 
+import br.ufrn.imd.domain.Pessoa.Pessoa;
+
 public class Calendario {
     
     private ArrayList<Dia> dias = new ArrayList<>();

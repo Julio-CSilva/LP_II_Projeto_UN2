@@ -2,8 +2,10 @@ package br.ufrn.imd.domain.Alerta;
 
 import java.util.Date;
 
+import br.ufrn.imd.domain.Pessoa.Bombeiro;
+
 public class Caso {
-    private Bombeiro bombeiros:
+    private Bombeiro bombeiros;
     private String descricao;
     private Date data;
     private String local;

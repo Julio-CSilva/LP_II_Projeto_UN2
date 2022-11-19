@@ -3,7 +3,7 @@ package br.ufrn.imd.domain.Escala;
 import java.util.ArrayList;
 import java.util.Date;
 
-import br.ufrn.imd.domain.Escala.Escala.Calendario;
+import br.ufrn.imd.domain.Pessoa.Pessoa;
 
 public class Escala {
     private ArrayList<Calendario> escalasData = new ArrayList<>();
