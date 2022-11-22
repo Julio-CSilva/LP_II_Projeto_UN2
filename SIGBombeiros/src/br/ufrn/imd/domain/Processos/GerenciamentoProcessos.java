@@ -29,6 +29,10 @@ public class GerenciamentoProcessos {
         
     }
 
+    public void addProcesso(Processo p){
+        processos.add(p);
+    }
+
     public boolean verifAcesso(Pessoa p){
         if(p.getNiAcesso() != 1){
             return true;

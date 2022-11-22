@@ -1,26 +1,25 @@
 package br.ufrn.imd.domain.Boletim;
 
 import java.util.ArrayList;
+import java.util.List;
 import br.ufrn.imd.domain.Alerta.Caso;
 
-import br.ufrn.imd.domain.Pessoa.Pessoa;
-
-public class Boletim {
+public class GerenciamentoBoletim {
     
     private Caso ultimoCaso;
-    private ArrayList<Noticia> noticias = new ArrayList<>();
-    
-    public Noticia criarNoticia(){
+    private List<Noticia> noticias;
 
+    public GerenciamentoBoletim(){
+        noticias = new ArrayList<Noticia>();
     }
+    
+    //public Noticia criarNoticia(){}
 
     public void editarNoticia(Noticia noticia){
 
     }
 
-    public Noticia excluirNoticia(Noticia noticia){
-
-    }
+    //public Noticia excluirNoticia(Noticia noticia){}
 
     public void mudarUltimoCaso(Caso caso){
 
@@ -30,9 +29,7 @@ public class Boletim {
 
     }
 
-    public Boolean verificarAcesso(Pessoa pessoa){
-        
-    }
+    //public Boolean verificarAcesso(Pessoa pessoa){}
 
     public Caso getUltimoCaso() {
         return ultimoCaso;
@@ -40,7 +37,7 @@ public class Boletim {
     public void setUltimoCaso(Caso ultimoCaso) {
         this.ultimoCaso = ultimoCaso;
     }
-    public ArrayList<Noticia> getNoticias() {
+    public List<Noticia> getNoticias() {
         return noticias;
     }
     public void setNoticias(ArrayList<Noticia> noticias) {

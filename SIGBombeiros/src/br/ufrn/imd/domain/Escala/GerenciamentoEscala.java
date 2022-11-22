@@ -5,14 +5,12 @@ import java.util.Date;
 
 import br.ufrn.imd.domain.Pessoa.Pessoa;
 
-public class Escala {
+public class GerenciamentoEscala {
     private ArrayList<Calendario> escalasData = new ArrayList<>();
     private ArrayList<Pessoa> escalasPessoa = new ArrayList<>();
     private Date diaHoje;
 
-    public Calendario criarCalendario(){
-
-    }
+    //public Calendario criarCalendario(){}
 
     public void editarCalendario(){
 
@@ -26,9 +24,7 @@ public class Escala {
 
     }
 
-    public Boolean verificarAcesso(Pessoa pessoa){
-
-    }
+    //public Boolean verificarAcesso(Pessoa pessoa){}
 
     public ArrayList<Calendario> getEscalasData() {
         return escalasData;

@@ -5,7 +5,7 @@ public abstract class Pessoa {
     private String nome;
     private String rg;
     private int niAcesso;
-    
+
     public String getNome() {
         return nome;
     }

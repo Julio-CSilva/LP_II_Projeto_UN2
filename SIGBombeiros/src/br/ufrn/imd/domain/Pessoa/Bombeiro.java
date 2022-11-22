@@ -46,7 +46,7 @@ public class Bombeiro extends Pessoa{
     @Override
     public String toString() {
         return "Bombeiro [nome=" + getNome() + ", rg=" + getRg() + "habilitacao=" + habilitacao + ", qualificacao=" + qualificacao + ", renepe=" + renepe
-                + ", nivelBomb=" + nivelBomb + "]";
+                + ", Nivel=" + nivelBomb + "]";
     }
     
 }

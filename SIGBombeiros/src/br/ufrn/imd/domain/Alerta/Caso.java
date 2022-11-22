@@ -43,7 +43,13 @@ public class Caso {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
+    @Override
+    public String toString() {
+        return "Caso [bombeiros=" + bombeiros + ", descricao=" + descricao + ", data=" + data + ", local=" + local
+                + ", titulo=" + titulo + "]";
+    }
 
+    
     
 
 }
